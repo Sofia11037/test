@@ -27,8 +27,8 @@ export default function Header() {
 
           <div className="bar">
             <div className="icons">
-              <img className="phone" src="/src/assets/icons/phone.svg" alt="" />
-              <img onClick={toggleDropdown} src="/src/assets/icons/MENU.svg" alt="" />
+              <img className="phone" src="./src/assets/icons/phone.svg" alt="" />
+              <img onClick={toggleDropdown} src="./src/assets/icons/MENU.svg" alt="" />
             </div>
 
             {isOpen && (
@@ -44,4 +44,5 @@ export default function Header() {
       </nav>
       </>
     );
+
   }
