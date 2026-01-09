@@ -28,7 +28,7 @@ export default function CompanyPolicy() {
                             <p className="text__more">Можно привести еще много примеров, но и так уже понятно, что дело лучше иметь с теми, у кого есть принципы и кто этих принципов придерживается.</p>
                             <p className="text__more">Ниже представлены наши принципы, наша политика – как по отношению к клиентам, так и по отношению к сотрудникам. А то, что мы всегда придерживаемся нашей политики, подтверждают примеры работ и отзывы клиентов.</p>
 
-                            <img src="/src/assets/images/photo.png" alt="" className="img" />
+                            <img src="./src/assets/images/photo.png" alt="" className="img" />
                         </div>
                     </div>
 
@@ -58,32 +58,32 @@ export default function CompanyPolicy() {
                                     <h4 className="title">Третий принцип — честность</h4>
                                         <div className="more-honesty">
                                             <div className="honesty">
-                                                <img src="/src/assets/icons/span.svg" alt="" className="img" />
+                                                <img src="./src/assets/icons/span.svg" alt="" className="img" />
                                                 <p className="txt">Мы никогда не будем скрывать, если что-то пошло не так по нашей вине.</p>
                                             </div>
 
                                             <div className="honesty">
-                                                <img src="/src/assets/icons/span.svg" alt="" className="img" />
+                                                <img src="./src/assets/icons/span.svg" alt="" className="img" />
                                                 <p className="txt">Если мы знаем, что в процессе работы могут возникнуть трудности, на решение которых потребуются средства, то скажем вам об этом, а не будем умалчивать, чтобы привлечь вас низкой стоимостью ремонта.</p>
                                             </div>
 
                                             <div className="honesty">
-                                                <img src="/src/assets/icons/span.svg" alt="" className="img" />
+                                                <img src="./src/assets/icons/span.svg" alt="" className="img" />
                                                 <p className="txt">Мы не навязываем дополнительные услуги ради того, чтобы нажиться – если в них нет необходимости, значит, о них не стоит и упоминать.</p>
                                             </div>
 
                                             <div className="honesty">
-                                                <img src="/src/assets/icons/span.svg" alt="" className="img" />
+                                                <img src="./src/assets/icons/span.svg" alt="" className="img" />
                                                 <p className="txt">Если вы нуждаетесь в консультации по вопросам строительства и ремонта, то всегда можете обратиться к нашим сотрудникам. Они с радостью помогут.</p>
                                             </div>
 
                                             <div className="honesty">
-                                                <img src="/src/assets/icons/span.svg" alt="" className="img" />
+                                                <img src="./src/assets/icons/span.svg" alt="" className="img" />
                                                 <p className="txt">Хотите посмотреть вживую на те квартиры и объекты, на которых мы работали? Без проблем – покажем.</p>
                                             </div>
 
                                             <div className="honesty">
-                                                <img src="/src/assets/icons/span.svg" alt="" className="img" />
+                                                <img src="./src/assets/icons/span.svg" alt="" className="img" />
                                                 <p className="txt">Если вы не можете часто заезжать на объект, чтобы следить за ходом ремонта, то для вас мы создадим кабинет в СРМ системе, откуда вы сможете наблюдать за процессом из любой точки, где есть интернет. В кабинете мы каждый день выкладываем фотоотчеты и прочее, что рисует ясную картину ремонта.</p>
                                             </div>
                                         </div>
@@ -128,4 +128,5 @@ export default function CompanyPolicy() {
         </div>
       
     );
+
   }
