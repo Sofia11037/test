@@ -19,9 +19,9 @@ function App() {
       </header>
       <main className="main">
           <Routes>
-            <Route path='/' element={<HomePage />} />
-            <Route path='/aboutCompany/*' element={<AboutCompany />} />
-            <Route path='/RepairAndDecoration' element={<RepairAndDecoration />} />
+            <Route path='./' element={<HomePage />} />
+            <Route path='./aboutCompany/*' element={<AboutCompany />} />
+            <Route path='./RepairAndDecoration' element={<RepairAndDecoration />} />
           </Routes>
       </main>
       <footer>
