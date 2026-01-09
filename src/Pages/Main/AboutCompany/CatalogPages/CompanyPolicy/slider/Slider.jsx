@@ -21,9 +21,10 @@ export default function Slider() {
                 <p className="which">0{currentIndex + 1} / 05</p>
             </div>
             <div className="arrows">
-                <div className="prev" onClick={prevSlide}><img src="/src/assets/icons/left.svg" alt="" /></div>
-                <div className="next" onClick={nextSlide}><img src="/src/assets/icons/right.svg" alt="" /></div>
+                <div className="prev" onClick={prevSlide}><img src="./src/assets/icons/left.svg" alt="" /></div>
+                <div className="next" onClick={nextSlide}><img src="./src/assets/icons/right.svg" alt="" /></div>
             </div>
         </div>
     );
 }
+
