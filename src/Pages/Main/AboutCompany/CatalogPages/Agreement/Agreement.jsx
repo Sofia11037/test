@@ -13,7 +13,7 @@ export default function Agreement() {
                         <p className="txt">Если у вас возникнут вопросы во время изучения договора или вы уже решили к нам обратиться, то позвоните по указанным номерам, либо заполните форму онлайн-заявки на ремонт.</p>
                     </div>
                     <div className="document">
-                        <img src="/src/assets/images/emoji1.png" alt="" className="img" />
+                        <img src="./src/assets/images/emoji1.png" alt="" className="img" />
                         <h4 className="title">Договор на ремонтные работы</h4>
                         <p className="txt">Документ Microsoft Word</p>
                     </div>
@@ -22,4 +22,5 @@ export default function Agreement() {
         </div>
       
     );
+
   }
