@@ -1,0 +1,197 @@
+.guarantees {
+    color: #1A1A1A;
+    .ttl {
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 68px;
+        letter-spacing: -1%;
+        color: #1A1A1A;
+        margin-bottom: 32px;
+    }
+    .txt {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        width: 600px;
+        margin-bottom: 64px;
+        max-width: 100%;
+    }
+    .years {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 112px;
+        .quantity {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            .num {
+                font-weight: 900;
+                font-size: 96px;
+                line-height: 100px;
+                letter-spacing: -4%;
+            }
+            .text {
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 32px;
+                width: 300px;
+                margin-bottom: 0;
+            }
+            .short {
+                width: 250px;
+            }
+        }
+    }
+    .title {
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+        letter-spacing: -1%;
+        margin-bottom: 48px;
+    }
+    .information {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 112px;
+        flex-wrap: wrap;
+        .item {
+            padding: 32px 24px;
+            width: 350px;
+            height: 405px;
+            background: #F9F9F9;
+            border-bottom: #1A1A1A 8px solid;
+            .img {
+                width: 64px;
+                margin-bottom: 48px;
+            }
+            .about {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+            }
+            .ttl-mini {
+                margin-bottom: 24px;
+            }
+        }
+    }
+    .apartment {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin-bottom: 112px;
+        width: 784px;
+        max-width: 100%;
+        .ttl-mini {
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 58px;
+            letter-spacing: -1%;
+            color: #29ABE2;
+            width: 712px;
+        }
+        &:hover {
+            text-decoration: underline #29ABE23D;
+        }
+    }
+}
+
+@media (max-width: 904px) {
+    .guarantees {
+        .years {
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+            .quantity {
+                flex-direction: row;
+                align-items: center;
+                gap: 25px;
+                .text {
+                    width: 100%;
+                    max-width: 100%;
+                }
+                .num {
+                    font-size: 75px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 518px) {
+    .guarantees {
+        .ttl {
+            font-size: 50px;
+        }
+        .title {
+            font-size: 30px;
+            line-height: 35px;
+        }
+        .years {
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            .quantity {
+                flex-direction: column;
+                align-items: baseline;
+                gap: 0px;
+                .text {
+                    width: 250px;
+                }
+                .num {
+                    font-size: 75px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 475px) {
+    .guarantees {
+        .quantity {
+            .num {
+                font-size: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1152px) {
+    .guarantees {
+        .information {
+            justify-content: space-evenly;
+            gap: 50px;
+            height: 100%;
+            margin-bottom: 70px;
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .guarantees {
+        .apartment {
+            margin-bottom: 64px;
+            .img {
+                display: none;
+            }
+            .ttl-mini {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 459px) {
+    .guarantees {
+        .apartment {
+            .ttl-mini {
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+    }
+}

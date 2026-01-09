@@ -1,0 +1,100 @@
+.repair {
+    margin-bottom: 112px;
+    .slider__repair {
+        position: relative;
+        margin-bottom: 32px;
+        .slide__repair {
+            .img {
+                width: 100%;
+                max-width: 1110px;
+                height: 400px;
+                object-fit: cover;
+            }
+        }
+    }
+    .arrows___repair {
+        cursor: pointer;
+        position: absolute;
+        bottom: 7px;
+        right: 7px;
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+    }
+    .arrows-phone {
+        display: none;
+        justify-content: space-between;
+        .content__arrow-phone {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            width: 100px;
+        }
+        .num_slider-phone {
+            color: #97A1B0;
+            font-weight: 400;
+            font-size: 18px;
+            letter-spacing: -1%;
+        }
+    }
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    .desc {
+        .title__desc {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 100%;
+            margin-bottom: 13px;
+            border-bottom: #E3E8ED 1px solid;
+            padding: 3px;
+        }
+        .txt__desc {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #97A1B0;
+        }
+    }
+    .num_slider {
+        color: #97A1B0;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: -1%;
+    }
+}
+
+@media (max-width: 573px) {
+    .repair {
+        margin-bottom: 72px;
+        .slider {
+            .slide {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .img {
+                    width: 100%;
+                    max-width: 508px;
+                    height: 220px;
+                    max-height: 100%;
+                }
+            }
+        }
+        .slider__repair {
+            .arrows___repair {
+                display: none;
+            }
+        }
+        .arrows-phone {
+            display: flex;
+        }
+        .num_slider {
+            display: none;
+        }
+        .txt__desc {
+            margin-bottom: 32px;
+        }
+    }
+}

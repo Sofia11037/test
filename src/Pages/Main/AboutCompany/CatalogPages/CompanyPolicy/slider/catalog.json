@@ -1,0 +1,30 @@
+[{
+        "id": 1,
+        "img": "/src/assets/images/forSlider.png",
+        "title": "Капитальный ремонт в пентхаусе"
+    },
+    {
+        "id": 2,
+        "img": "/src/assets/images/photo.png",
+        "title": "Ремонт офиса"
+
+    },
+    {
+        "id": 3,
+        "img": "/src/assets/images/slider.png",
+        "title": "Капитальный ремонт"
+
+    },
+    {
+        "id": 4,
+        "img": "/src/assets/images/slider3.jpg",
+        "title": "Дизайнерский ремонт комнаты"
+
+    },
+    {
+        "id": 5,
+        "img": "/src/assets/images/slider4.jpg",
+        "title": "Косметический ремонт"
+
+    }
+]

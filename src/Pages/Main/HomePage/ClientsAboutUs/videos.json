@@ -1,0 +1,32 @@
+[{
+        "id": 1,
+        "title": "Видеоотзыв от Андрея Константинова",
+        "img": "/src/assets/images/videoSliders/videoSlider1.png",
+        "subtitle": "Ремонт коттеджа в Сколково",
+        "video": "https://www.youtube.com/embed/2qQv9SsLI38?si=4NaHfWZ3J01A2rRd"
+    },
+    {
+        "id": 2,
+        "title": "Видеоотзыв от Семьи Костенко",
+        "img": "/src/assets/images/videoSliders/videoSlider2.png",
+        "subtitle": "Ремонт квартиры в Медведково",
+        "video": "https://www.youtube.com/embed/ZkdGHHPtfh0?si=mxeKPYGEnmAHhbz1"
+
+    },
+    {
+        "id": 3,
+        "title": "Видеоотзыв от Алексея Смирнова",
+        "img": "/src/assets/images/videoSliders/videoSlider3.jpg",
+        "subtitle": "Ремонт офиса в центре Москвы",
+        "video": "https://www.youtube.com/embed/LV4EVIVI1rA?si=-8yStMpf3rTdRx56"
+
+    },
+    {
+        "id": 4,
+        "title": "Видеоотзыв от Елены и Михаила",
+        "img": "/src/assets/images/videoSliders/videoSlider4.jpg",
+        "subtitle": "Ремонт трехкомнатной квартиры на Пресне",
+        "video": "https://www.youtube.com/embed/6Ka8Bo8scuE?si=-mGlvNz3aSkOUgRZ"
+
+    }
+]

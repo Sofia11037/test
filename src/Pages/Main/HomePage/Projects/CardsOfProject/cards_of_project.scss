@@ -1,0 +1,92 @@
+.cards-of-project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    max-width: 100%;
+    img {
+        margin-bottom: 24px;
+        width: 730px;
+        height: 304px;
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .about-card {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        .ttl {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 32px;
+            margin-bottom: 32px;
+        }
+        .details {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            .left,
+            .right {
+                height: 114px;
+                display: flex;
+                flex-direction: column;
+                width: 60%;
+                margin-bottom: 30px;
+                .info {
+                    margin-bottom: 30px;
+                }
+                .txt {
+                    color: #97A1B0;
+                    font-weight: 400;
+                    font-size: 15px;
+                }
+                .detal {
+                    font-weight: 400;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    &:hover {
+        cursor: pointer;
+        .about-card .ttl,
+        .about-card .btn {
+            color: #29ABE2;
+        }
+    }
+    .about-card .btn {
+        cursor: pointer;
+        width: 154px;
+        padding: 2px 0;
+        border: none;
+        border-bottom: 1px solid #E3E8ED;
+        background-color: white;
+        font-weight: 700;
+        font-size: 14px;
+        &:active {
+            color: rgb(41, 9, 129);
+        }
+    }
+}
+
+@media (max-width: 1152px) {
+    .cards-of-project {
+        .img {
+            margin-right: 30px;
+        }
+    }
+}
+
+@media (max-width: 718px) {
+    .cards-of-project {
+        flex-direction: column;
+        margin-bottom: 56px;
+        .img {
+            margin-right: 0;
+        }
+        .about-card {
+            width: 100%;
+        }
+    }
+}

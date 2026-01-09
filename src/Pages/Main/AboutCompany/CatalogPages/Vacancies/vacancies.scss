@@ -1,0 +1,63 @@
+.vacancies {
+    color: #1A1A1A;
+    margin-bottom: 112px;
+    .txt {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 64px;
+    }
+    .title {
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 68px;
+        letter-spacing: -1%;
+        margin-bottom: 32px;
+    }
+    .professions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        a {
+            color: #1A1A1A;
+        }
+        .item {
+            cursor: pointer;
+            width: 350px;
+            border: 1px solid #E3E8ED;
+            padding: 32px;
+            .img {
+                margin-bottom: 28px;
+            }
+            .ttl {
+                margin-bottom: 8px;
+                font-weight: 700;
+                font-size: 22px;
+            }
+            &:hover {
+                .ttl {
+                    color: #29ABE2;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1152px) {
+    .vacancies {
+        .professions {
+            justify-content: center;
+            gap: 40px;
+        }
+    }
+}
+
+@media (max-width: 688px) {
+    .vacancies {
+        .title {
+            font-size: 50px;
+        }
+    }
+}

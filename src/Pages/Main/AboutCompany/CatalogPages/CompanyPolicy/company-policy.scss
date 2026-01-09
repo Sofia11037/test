@@ -1,0 +1,169 @@
+.company-policy {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    margin-bottom: 112px;
+    color: #1A1A1A;
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        .txt {
+            padding: 10px 24px 28px 24px;
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: -1%;
+            color: #97A1B0;
+            border-left: 1px solid #E3E8ED;
+            cursor: pointer;
+            &:last-child {
+                padding-bottom: 10px;
+            }
+        }
+        .intro:hover,
+        .clients:hover,
+        .staff:hover {
+            border-left: #29ABE2 2px solid;
+            color: #1A1A1A;
+        }
+    }
+    .content {
+        .item {
+            margin-bottom: 64px;
+            .ttl-mini {
+                font-weight: 900;
+                font-size: 48px;
+                line-height: 58px;
+                letter-spacing: -1%;
+                margin-bottom: 48px;
+                color: #1A1A1A;
+            }
+            .ttl {
+                font-weight: 900;
+                font-size: 64px;
+                line-height: 68px;
+                letter-spacing: -1%;
+                margin-bottom: 32px;
+                color: #1A1A1A;
+            }
+            .more {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 40px;
+                .text__more {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 27px;
+                }
+                .img {
+                    max-width: 100%;
+                    width: 100%;
+                }
+                .bold {
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 32px;
+                    color: #1A1A1A;
+                }
+            }
+            .principles {
+                display: flex;
+                flex-direction: column;
+                gap: 48px;
+                margin-bottom: 64px;
+                .prcpl {
+                    display: flex;
+                    gap: 12px;
+                    .num {
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 32px;
+                        color: #29ABE2;
+                    }
+                    .about__prcpl {
+                        .title {
+                            font-weight: 700;
+                            font-size: 22px;
+                            line-height: 32px;
+                            margin-bottom: 16px;
+                            color: #1A1A1A;
+                        }
+                        .txt {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 27px;
+                        }
+                        .part {
+                            margin-bottom: 40px;
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                        }
+                        .more-honesty {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 35px;
+                            .honesty {
+                                display: flex;
+                                gap: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 978px) {
+    .company-policy {
+        .content {
+            .item {
+                .ttl,
+                .ttl-mini {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 731px) {
+    .company-policy {
+        flex-direction: column;
+        .navigation {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 633px) {
+    .company-policy {
+        .content {
+            .item {
+                .ttl,
+                .ttl-mini {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 452px) {
+    .company-policy {
+        .content {
+            .item {
+                .ttl,
+                .ttl-mini {
+                    font-size: 23px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+.projects {
+    margin-bottom: 112px;
+    .title__projects {
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+        letter-spacing: -1%;
+        margin-bottom: 56px;
+    }
+    .for-line {
+        border-bottom: #E3E8ED 1px solid;
+        margin-bottom: 40px;
+        max-width: 100%;
+        .catalog {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            overflow-x: auto;
+            .catalog__opt {
+                font-weight: 400;
+                font-size: 18px;
+                color: #97A1B0;
+                flex: 0 0 auto;
+                padding: 10px 20px;
+                white-space: nowrap;
+            }
+            .active {
+                color: black;
+                font-weight: 700;
+                border-bottom: 8px solid black;
+            }
+            &::-webkit-scrollbar {
+                display: none;
+            }
+        }
+    }
+    .btn-more {
+        cursor: pointer;
+        border: 1px solid #E3E8ED;
+        background-color: white;
+        width: 290px;
+        padding: 20px 22px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p {
+            font-weight: 700;
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 1064px) {
+    .projects {
+        .for-line {
+            .catalog {
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media (max-width: 936px) {
+    .projects {
+        .for-line {
+            .catalog {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 718px) {
+    .projects {
+        .title__projects {
+            font-weight: 900;
+            font-size: 36px;
+            letter-spacing: -1%;
+        }
+    }
+}
+
+@media (max-width: 464px) {
+    .projects {
+        .title__projects {
+            font-weight: 900;
+            font-size: 36px;
+            letter-spacing: -1%;
+        }
+    }
+}

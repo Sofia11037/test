@@ -1,0 +1,50 @@
+.characteristics {
+    margin-bottom: 112px;
+    .strategy,
+    .creative,
+    .craft {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 57px;
+        .title {
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 58px;
+            letter-spacing: -1%;
+        }
+        .txt-about {
+            width: 540px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            max-width: 100%;
+        }
+    }
+    .creative {
+        .texts {
+            .txt-about:first-child,
+            .txt-about:nth-child(2) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 895px) {
+    .characteristics {
+        .strategy,
+        .creative,
+        .craft {
+            flex-direction: column;
+            .title {
+                margin-bottom: 24px;
+            }
+        }
+    }
+}
+
+@media (max-width: 912px) {
+    .characteristics {
+        margin-bottom: 80px;
+    }
+}

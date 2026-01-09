@@ -1,0 +1,169 @@
+.footer {
+    background: #1A1A1A;
+    padding: 59px 0;
+    color: white;
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        padding-bottom: 40px;
+        border-bottom: solid 1px #E3E8ED1F;
+        margin-bottom: 32px;
+        .contact {
+            .txt {
+                color: #97A1B0;
+                font-weight: 400;
+                font-size: 18px;
+                margin-bottom: 8px;
+            }
+            .phone {
+                font-weight: 900;
+                font-size: 48px;
+            }
+        }
+        .btn {
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 14px;
+            color: white;
+            padding: 20px 28px;
+            background: none;
+            border: solid 1px #E3E8ED3D;
+        }
+    }
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        .address {
+            .mail {
+                color: #29ABE2;
+                font-weight: 700;
+                font-size: 14px;
+                margin-bottom: 20px;
+                cursor: pointer;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .texts {
+                margin-bottom: 40px;
+                .txt {
+                    font-weight: 500;
+                    font-size: 14px;
+                    margin-bottom: 22px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .design {
+                font-weight: 500;
+                font-size: 14px;
+                color: #97A1B0;
+                border-bottom: #97A1B03D 1px solid;
+            }
+        }
+        .about_company {
+            width: 65%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .box-about {
+                font-weight: 700;
+                font-size: 14px;
+                .ttl {
+                    color: rgb(168, 168, 168);
+                }
+                .opt {
+                    cursor: pointer;
+                    font-weight: 700;
+                    font-size: 14px;
+                    margin-bottom: 40px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .about_company-phone {
+        display: none;
+        justify-content: space-between;
+        align-items: start;
+        flex-direction: column;
+        .opt {
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 40px;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media (max-width: 805px) {
+    .footer {
+        .footer-top {
+            flex-direction: column;
+            align-items: start;
+            .contact {
+                margin-bottom: 20px;
+            }
+        }
+        .footer-bottom {
+            flex-direction: column;
+            .address {
+                .design {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 464px) {
+    .footer {
+        .footer-top {
+            .contact {
+                .txt {
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+                .phone {
+                    font-weight: 900;
+                    font-size: 28px;
+                    letter-spacing: -1%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 805px) {
+    .footer {
+        .footer-bottom {
+            .about_company {
+                width: 95%;
+            }
+        }
+    }
+}
+
+@media (max-width: 541px) {
+    .footer {
+        .footer-bottom {
+            .about_company {
+                display: none;
+            }
+        }
+        .about_company-phone {
+            display: flex;
+        }
+    }
+}

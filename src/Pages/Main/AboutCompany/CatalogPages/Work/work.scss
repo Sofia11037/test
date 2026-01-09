@@ -1,0 +1,106 @@
+.work {
+    margin-bottom: 340px;
+    color: #1A1A1A;
+    .ttl {
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 68px;
+        letter-spacing: -1%;
+        color: #1A1A1A;
+        margin-bottom: 32px;
+    }
+    .txt {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        width: 635px;
+        margin-bottom: 48px;
+        max-width: 100%;
+    }
+    .towns {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 24px;
+        .town {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            .letter {
+                color: #29ABE2;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 32px;
+                border: 1px solid #E3E8ED;
+                width: 48px;
+                height: 48px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .name {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                &:hover {
+                    text-decoration: underline;
+                    color: #29ABE2;
+                    cursor: pointer;
+                }
+            }
+        }
+        .few {
+            align-items: start;
+            .names {
+                display: flex;
+                flex-direction: column;
+                gap: 9px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .where {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-items: start;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 707px) {
+    .work {
+        .where {
+            justify-content: space-evenly;
+            gap: 35px;
+            .long {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .work {
+        margin-bottom: 64px;
+        .ttl {
+            font-size: 45px;
+        }
+        .where {
+            justify-content: space-between;
+            flex-direction: column;
+            .towns {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 473px) {
+    .work {
+        .ttl {
+            font-size: 30px;
+        }
+    }
+}

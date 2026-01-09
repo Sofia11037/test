@@ -1,0 +1,150 @@
+{
+    "Ремонт квартир": [{
+            "id": 1,
+            "img": "/src/assets/images/rooms/room1.1.jpg",
+            "title": "Ремонт элитной 5-комнатной квартиры в Одинцово",
+            "square": "250 м²",
+            "forMaterials": "4 000 000 ₽",
+            "term": "6 месяцев",
+            "forWork": "2 000 000 ₽"
+        },
+        {
+            "id": 2,
+            "img": "/src/assets/images/rooms/room2.1.jpg",
+            "title": "Ремонт небольшой однушки для архитектора",
+            "square": "45 м²",
+            "forMaterials": "700 000 ₽",
+            "term": "2 месяца",
+            "forWork": "400 000 ₽"
+        },
+        {
+            "id": 3,
+            "img": "/src/assets/images/rooms/room3.1.jpg",
+            "title": "Дизайнерский ремонт двухкомнатной квартиры",
+            "square": "80 м²",
+            "forMaterials": "1 600 000 ₽",
+            "term": "3 месяца",
+            "forWork": "800 000 ₽"
+        },
+        {
+            "id": 4,
+            "img": "/src/assets/images/rooms/room4.jpg",
+            "title": "Экспресс ремонт студии",
+            "square": "35 м²",
+            "forMaterials": "280 000 ₽",
+            "term": "1 месяц",
+            "forWork": "150 000 ₽"
+        }
+    ],
+    "Коммерческая недвижимость": [{
+            "id": 5,
+            "img": "/src/assets/images/rooms/room5.webp",
+            "title": "Ремонт офиса в бизнес-центре",
+            "square": "150 м²",
+            "forMaterials": "1 800 000 ₽",
+            "term": "2.5 месяца",
+            "forWork": "1 000 000 ₽"
+        },
+        {
+            "id": 6,
+            "img": "/src/assets/images/rooms/room6.jpg",
+            "title": "Ремонт бутика одежды",
+            "square": "90 м²",
+            "forMaterials": "1 000 000 ₽",
+            "term": "2 месяца",
+            "forWork": "650 000 ₽"
+        },
+        {
+            "id": 7,
+            "img": "/src/assets/images/rooms/room7.jpg",
+            "title": "Ремонт салона красоты",
+            "square": "120 м²",
+            "forMaterials": "1 500 000 ₽",
+            "term": "2 месяца",
+            "forWork": "900 000 ₽"
+        },
+        {
+            "id": 8,
+            "img": "/src/assets/images/rooms/room8.jpg",
+            "title": "Ремонт ресторана в центре",
+            "square": "200 м²",
+            "forMaterials": "2 800 000 ₽",
+            "term": "3 месяца",
+            "forWork": "1 600 000 ₽"
+        }
+    ],
+    "Ремонт домов": [{
+            "id": 9,
+            "img": "/src/assets/images/rooms/room9.jpg",
+            "title": "Ремонт загородного коттеджа",
+            "square": "300 м²",
+            "forMaterials": "3 500 000 ₽",
+            "term": "5 месяцев",
+            "forWork": "2 000 000 ₽"
+        },
+        {
+            "id": 10,
+            "img": "/src/assets/images/rooms/room10.jpg",
+            "title": "Ремонт таунхауса с мансардой",
+            "square": "180 м²",
+            "forMaterials": "2 200 000 ₽",
+            "term": "4 месяца",
+            "forWork": "1 200 000 ₽"
+        },
+        {
+            "id": 11,
+            "img": "/src/assets/images/rooms/room11.jpg",
+            "title": "Реконструкция частного дома",
+            "square": "220 м²",
+            "forMaterials": "3 000 000 ₽",
+            "term": "4.5 месяца",
+            "forWork": "1 700 000 ₽"
+        },
+        {
+            "id": 12,
+            "img": "/src/assets/images/rooms/room12.jpeg",
+            "title": "Строительство и отделка бани",
+            "square": "50 м²",
+            "forMaterials": "800 000 ₽",
+            "term": "1.5 месяца",
+            "forWork": "450 000 ₽"
+        }
+    ],
+    "Прочие услуги": [{
+            "id": 13,
+            "img": "/src/assets/images/rooms/room13.webp",
+            "title": "Декорирование интерьера под ключ",
+            "square": "100 м²",
+            "forMaterials": "300 000 ₽",
+            "term": "1 месяц",
+            "forWork": "200 000 ₽"
+        },
+        {
+            "id": 14,
+            "img": "/src/assets/images/rooms/room14.jpg",
+            "title": "Комплексный ремонт санузлов",
+            "square": "10 м²",
+            "forMaterials": "150 000 ₽",
+            "term": "2 недели",
+            "forWork": "80 000 ₽"
+        },
+        {
+            "id": 15,
+            "img": "/src/assets/images/rooms/room15.jpg",
+            "title": "Ремонт и утепление балкона",
+            "square": "6 м²",
+            "forMaterials": "70 000 ₽",
+            "term": "1 неделя",
+            "forWork": "40 000 ₽"
+        },
+        {
+            "id": 16,
+            "img": "/src/assets/images/rooms/room16.webp",
+            "title": "Демонтажные работы",
+            "square": "100 м²",
+            "forMaterials": "50 000 ₽",
+            "term": "1 неделя",
+            "forWork": "100 000 ₽"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+.profit {
+    background: #1A1A1A;
+    color: white;
+    padding: 64px 0;
+    margin-bottom: 112px;
+    .title__profit {
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+        letter-spacing: -1%;
+        margin-bottom: 48px;
+    }
+    .boxes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .box {
+            width: 252px;
+            .num {
+                font-weight: 900;
+                font-size: 48px;
+                line-height: 58px;
+                letter-spacing: -1%;
+                margin-bottom: 4px;
+            }
+            .title {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 100%;
+                margin-bottom: 16px;
+            }
+            .txt {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #97A1B0;
+            }
+        }
+    }
+}
+
+@media (max-width: 1047px) {
+    .profit {
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .boxes {
+            max-width: 600px;
+            width: 100%;
+            .box {
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 538px) {
+    .profit {
+        .title__profit {
+            font-size: 35px;
+            text-align: left;
+        }
+    }
+}
+
+@media (max-width: 698px) {
+    .profit {
+        margin-bottom: 72px;
+    }
+}

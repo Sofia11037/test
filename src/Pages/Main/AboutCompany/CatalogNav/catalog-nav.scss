@@ -1,0 +1,38 @@
+.path {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    a {
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: -1%;
+        color: #97A1B0;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.about-company {
+    .catalog {
+        .true {
+            color: white;
+            background: #29ABE2;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .path {
+        width: 300px;
+        a {
+            font-size: 12px;
+        }
+    }
+}

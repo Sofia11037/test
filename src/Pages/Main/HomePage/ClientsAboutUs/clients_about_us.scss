@@ -1,0 +1,123 @@
+.clients-about-us {
+    margin-bottom: 112px;
+    .content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 56px;
+        .box-left {
+            .title {
+                font-weight: 900;
+                font-size: 48px;
+                line-height: 58px;
+                letter-spacing: -1%;
+                margin-bottom: 16px;
+            }
+            .txt {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+            }
+        }
+        .arrows {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            width: 9%;
+        }
+    }
+    .box-to-center {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .slider {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .content-phone {
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        width: 700px;
+        max-width: 100%;
+        // margin-left: 88px;
+        .arrows {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            .left {
+                margin-right: 9px;
+            }
+        }
+        .txt {
+            color: #97A1B0;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 100%;
+            letter-spacing: -1%;
+        }
+    }
+}
+
+@media (max-width: 912px) {
+    .clients-about-us {
+        margin-bottom: 80px;
+        .slider {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 1152px) {
+    .clients-about-us {
+        .content {
+            .arrows {
+                width: 10%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1032px) {
+    .clients-about-us {
+        .content {
+            .arrows {
+                width: 12%;
+            }
+        }
+    }
+}
+
+@media (max-width: 469px) {
+    .clients-about-us {
+        .content {
+            .box-left {
+                .title {
+                    font-size: 36px;
+                }
+                .txt {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 912px) {
+    .clients-about-us {
+        .content {
+            .arrows {
+                display: none;
+            }
+        }
+        .content-phone {
+            display: flex;
+        }
+        .slider {
+            margin-bottom: 32px;
+        }
+    }
+}
