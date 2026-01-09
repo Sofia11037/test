@@ -12,9 +12,9 @@ export default function CatalogNav() {
         <>
             <div className="path">
                 <NavLink to="/" className="path__main">Главная</NavLink>
-                <img src="/src/assets/icons/arrow-path.svg" alt="" className="arrow" />
+                <img src="./src/assets/icons/arrow-path.svg" alt="" className="arrow" />
                 <NavLink to="/aboutCompany/certificates" className="path__about-company">О компании</NavLink>
-                <img src="/src/assets/icons/arrow-path.svg" alt="" className="arrow" />
+                <img src="./src/assets/icons/arrow-path.svg" alt="" className="arrow" />
                 <a to="/aboutCompany" className="path__category"> {currentCategory ? currentCategory.name : ""}</a>
             </div>
 
@@ -23,4 +23,5 @@ export default function CatalogNav() {
             </div>
         </>
     );
+
   }
